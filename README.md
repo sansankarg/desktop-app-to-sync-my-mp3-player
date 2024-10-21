@@ -22,13 +22,18 @@ I decided to create a cloud-based solution where I can upload my favorite songs 
 
 - **Main Application (`main.py`)**: This is the core application with a simple, minimalistic user interface built using Tkinter. It lets you add or delete music files to/from your Google Drive, and yes, you can also sync manually if you like! 🎵
 
-    ![Main UI](<insert_image_here>)
+    ![WhatsApp Image 2024-10-21 at 22 50 08_40468e82](https://github.com/user-attachments/assets/da7e7c2e-7be7-431f-a8a0-4e1900367212)
+
   
 - **Forever Sync (`forever.py`)**: This script is set to run on startup (inspired by Samsung DeX). It constantly checks if your MP3 player is connected to your laptop. As soon as it detects your device, it automatically opens SoulSync and starts syncing your music files from Google Drive to your MP3 player.
 
     Imagine, I just added a kabira song to Google Drive through my phone. That song hasn’t synced to my MP3 player yet. But when I plug in my MP3 player to charge through my laptop, SoulSync detects it, launches, and starts syncing. And yes, don’t judge my song choice, I listen to *all kinds of music*. 😄
 
-    ![Sync in Progress](<insert_image_here>)
+
+
+https://github.com/user-attachments/assets/1d0f76e7-2525-4712-bc8f-213810365f2e
+
+
 
 ---
 
